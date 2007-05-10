@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weeklyalbumchart user="jnunemaker" from="1177848000" to="1178452800">
+	<album>
+		<artist mbid="3ec17e85-9284-4f4c-8831-4e56c2354cdb">Reba McEntire</artist>
+		<name>Reba #1's</name>
+		<mbid></mbid>
+		<chartposition>1</chartposition>
+		<playcount>13</playcount>
+		<url>http://www.last.fm/music/Reba+McEntire/Reba%2B%25231%2527s</url>
+	</album>
+	<album>
+		<artist mbid="6e0ae159-8449-4262-bba5-18ec87fa529f">Rascal Flatts</artist>
+		<name>Me and My Gang</name>
+		<mbid></mbid>
+		<chartposition>1</chartposition>
+		<playcount>13</playcount>
+		<url>http://www.last.fm/music/Rascal+Flatts/Me+and+My+Gang</url>
+	</album>
+	<album>
+		<artist mbid="9092d8e1-9b38-4372-a96d-000b8561a8bc">LeAnn Rimes</artist>
+		<name>This Woman</name>
+		<mbid>080a4038-5156-460a-8dd5-daaa7d16b6a6</mbid>
+		<chartposition>3</chartposition>
+		<playcount>12</playcount>
+		<url>http://www.last.fm/music/LeAnn+Rimes/This+Woman</url>
+	</album>
+	<album>
+		<artist mbid="166c939c-a97e-44b9-b405-23d49a72df4e">SHeDaisy</artist>
+		<name>Fortuneteller's Melody</name>
+		<mbid></mbid>
+		<chartposition>3</chartposition>
+		<playcount>12</playcount>
+		<url>http://www.last.fm/music/SHeDaisy/Fortuneteller%27s+Melody</url>
+	</album>
+</weeklyalbumchart>

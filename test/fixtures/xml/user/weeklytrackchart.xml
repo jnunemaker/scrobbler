@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weeklytrackchart user="jnunemaker" from="1177848000" to="1178452800">
+	<track>
+		<artist mbid="302716e4-a702-4bbc-baac-591f8a8e20bc">Rebecca St. James</artist>
+		<name>Omega</name>
+		<mbid></mbid>
+		<chartposition>1</chartposition>
+		<playcount>2</playcount>
+		<url>http://www.last.fm/music/Rebecca+St.+James/_/Omega</url>
+	</track>
+	<track>
+		<artist mbid="0cd4810e-9f57-4003-bdfa-e188cd3ba818">Michael English</artist>
+		<name>In Christ Alone</name>
+		<mbid></mbid>
+		<chartposition>2</chartposition>
+		<playcount>1</playcount>
+		<url>http://www.last.fm/music/Michael+English/_/In+Christ+Alone</url>
+	</track>
+	<track>
+		<artist mbid="3ec17e85-9284-4f4c-8831-4e56c2354cdb">Reba McEntire</artist>
+		<name>How Was I to Know</name>
+		<mbid></mbid>
+		<chartposition>2</chartposition>
+		<playcount>1</playcount>
+		<url>http://www.last.fm/music/Reba+McEntire/_/How+Was+I+to+Know</url>
+	</track>
+	<track>
+		<artist mbid="faabb55d-3c9e-4c23-8779-732ac2ee2c0d">Shania Twain</artist>
+		<name>Don't Be Stupid (You Know I Love You) (remix)</name>
+		<mbid></mbid>
+		<chartposition>2</chartposition>
+		<playcount>1</playcount>
+		<url>http://www.last.fm/music/Shania+Twain/_/Don%27t+Be+Stupid+%28You+Know+I+Love+You%29+%28remix%29</url>
+	</track>
+</weeklytrackchart>

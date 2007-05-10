@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weeklyartistchart user="jnunemaker" from="1138536002" to="1139140802">
+	<artist>
+		<name>Jenny Lewis with The Watson Twins</name>
+		<mbid>4b179fe2-dfa5-40b1-b6db-b56dbc3b5f09</mbid>
+		<chartposition>1</chartposition>
+		<playcount>48</playcount>
+		<url>http://www.last.fm/music/Jenny+Lewis+with+The+Watson+Twins</url>
+	</artist>
+	<artist>
+		<name>Johnny Cash</name>
+		<mbid>d43d12a1-2dc9-4257-a2fd-0a3bb1081b86</mbid>
+		<chartposition>2</chartposition>
+		<playcount>25</playcount>
+		<url>http://www.last.fm/music/Johnny+Cash</url>
+	</artist>
+	<artist>
+		<name>Jewel</name>
+		<mbid>abae8575-ec8a-4736-abc3-1ad5093a68aa</mbid>
+		<chartposition>3</chartposition>
+		<playcount>14</playcount>
+		<url>http://www.last.fm/music/Jewel</url>
+	</artist>
+	<artist>
+		<name>Nine Inch Nails</name>
+		<mbid>b7ffd2af-418f-4be2-bdd1-22f8b48613da</mbid>
+		<chartposition>4</chartposition>
+		<playcount>8</playcount>
+		<url>http://www.last.fm/music/Nine+Inch+Nails</url>
+	</artist>
+	<artist>
+		<name>Natasha Bedingfield</name>
+		<mbid>8b477559-946e-4ef2-9fe1-446cff8fdd79</mbid>
+		<chartposition>4</chartposition>
+		<playcount>8</playcount>
+		<url>http://www.last.fm/music/Natasha+Bedingfield</url>
+	</artist>
+	<artist>
+		<name>Martina McBride</name>
+		<mbid>b0a55bd8-60c7-45c1-b78e-f20e4c8adba1</mbid>
+		<chartposition>6</chartposition>
+		<playcount>7</playcount>
+		<url>http://www.last.fm/music/Martina+McBride</url>
+	</artist>
+	<artist>
+		<name>Kanye West</name>
+		<mbid>164f0d73-1234-4e2c-8743-d77bf2191051</mbid>
+		<chartposition>7</chartposition>
+		<playcount>6</playcount>
+		<url>http://www.last.fm/music/Kanye+West</url>
+	</artist>
+	<artist>
+		<name>The Pussycat Dolls</name>
+		<mbid>1fda852b-92e9-4562-82fa-c52820a77b23</mbid>
+		<chartposition>8</chartposition>
+		<playcount>5</playcount>
+		<url>http://www.last.fm/music/The+Pussycat+Dolls</url>
+	</artist>
+</weeklyartistchart>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weeklyartistchart user="jnunemaker" from="1177848000" to="1178452800">
+	<artist>
+		<name>Rascal Flatts</name>
+		<mbid>6e0ae159-8449-4262-bba5-18ec87fa529f</mbid>
+		<chartposition>1</chartposition>
+		<playcount>25</playcount>
+		<url>http://www.last.fm/music/Rascal+Flatts</url>
+	</artist>
+	<artist>
+		<name>Reba McEntire</name>
+		<mbid>3ec17e85-9284-4f4c-8831-4e56c2354cdb</mbid>
+		<chartposition>2</chartposition>
+		<playcount>15</playcount>
+		<url>http://www.last.fm/music/Reba+McEntire</url>
+	</artist>
+	<artist>
+		<name>LeAnn Rimes</name>
+		<mbid>9092d8e1-9b38-4372-a96d-000b8561a8bc</mbid>
+		<chartposition>3</chartposition>
+		<playcount>14</playcount>
+		<url>http://www.last.fm/music/LeAnn+Rimes</url>
+	</artist>
+	<artist>
+		<name>SHeDaisy</name>
+		<mbid>166c939c-a97e-44b9-b405-23d49a72df4e</mbid>
+		<chartposition>4</chartposition>
+		<playcount>13</playcount>
+		<url>http://www.last.fm/music/SHeDaisy</url>
+	</artist>
+	<artist>
+		<name>Sawyer Brown</name>
+		<mbid>1b69a7bc-7563-4aaf-a859-8b6050a7a0f2</mbid>
+		<chartposition>5</chartposition>
+		<playcount>12</playcount>
+		<url>http://www.last.fm/music/Sawyer+Brown</url>
+	</artist>
+</weeklyartistchart>

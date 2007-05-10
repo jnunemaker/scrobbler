@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fans artist="Metallica">
+	<user username="Kikoin">
+		<url>http://www.last.fm/user/Kikoin/</url>
+		<image>http://panther1.last.fm/avatar/621340085aed19b9ab77a0f8c575758a.gif</image>
+		<weight>6081000</weight>
+	</user>
+	<user username="Chrisis92">
+		<url>http://www.last.fm/user/Chrisis92/</url>
+		<image>http://panther1.last.fm/avatar/c7ee12515d1391fa939a4f290c507052.jpg</image>
+		<weight>3390961</weight>
+	</user>
+	<user username="delekt0r">
+		<url>http://www.last.fm/user/delekt0r/</url>
+		<image>http://panther1.last.fm/avatar/6a82649000d06a3f9b47a5dedf6a4396.jpg</image>
+		<weight>2172016</weight>
+	</user>
+</fans>

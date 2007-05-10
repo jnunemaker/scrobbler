@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tag tag="rock" count="904888">
+	<artist name="Red Hot Chili Peppers" count="5740" streamable="yes">
+		<mbid>8bfac288-ccc5-448d-9573-c33ea2aa5c30</mbid>
+		<url>http://www.last.fm/music/Red+Hot+Chili+Peppers</url>
+		<thumbnail>http://static3.last.fm/storable/image/184200/small.jpg</thumbnail>
+		<image>http://panther1.last.fm/proposedimages/sidebar/6/1274/552019.jpg</image>
+	</artist>
+	<artist name="Foo Fighters" count="3867" streamable="yes">
+		<mbid>67f66c07-6e61-4026-ade5-7e782fad3a5d</mbid>
+		<url>http://www.last.fm/music/Foo+Fighters</url>
+		<thumbnail>http://static3.last.fm/storable/image/98/small.jpg</thumbnail>
+		<image>http://panther1.last.fm/proposedimages/sidebar/6/1000062/458.jpg</image>
+	</artist>
+	<artist name="Radiohead" count="3737" streamable="yes">
+		<mbid>a74b1b7f-71a5-4011-9441-d0b5e4122711</mbid>
+		<url>http://www.last.fm/music/Radiohead</url>
+		<thumbnail>http://static3.last.fm/storable/image/181817/small.jpg</thumbnail>
+		<image>http://panther1.last.fm/proposedimages/sidebar/6/979/544798.jpg</image>
+	</artist>
+	<artist name="Muse" count="3487" streamable="yes">
+		<mbid>9c9f1380-2516-4fc9-a3e6-f9f61941d090</mbid>
+		<url>http://www.last.fm/music/Muse</url>
+		<thumbnail>http://static3.last.fm/storable/image/184820/small.jpg</thumbnail>
+		<image>http://panther1.last.fm/proposedimages/sidebar/6/1000139/557394.jpg</image>
+	</artist>
+	<artist name="Nirvana" count="3445" streamable="yes">
+		<mbid>5b11f4ce-a62d-471e-81fc-a69a8278c7da</mbid>
+		<url>http://www.last.fm/music/Nirvana</url>
+		<thumbnail>http://static3.last.fm/storable/image/185350/small.jpg</thumbnail>
+		<image>http://panther1.last.fm/proposedimages/sidebar/6/976/557597.jpg</image>
+	</artist>
+	<artist name="U2" count="3429" streamable="yes">
+		<mbid>a3cb23fc-acd3-4ce0-8f36-1e5aa6a18432</mbid>
+		<url>http://www.last.fm/music/U2</url>
+		<thumbnail>http://static3.last.fm/storable/image/182635/small.jpg</thumbnail>
+		<image>http://panther1.last.fm/proposedimages/sidebar/6/1205/541776.jpg</image>
+	</artist>
+</tag>

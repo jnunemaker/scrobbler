@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recommendations user="RJ">
+	<artist>
+		<name>Kaiser Chiefs</name>
+		<mbid>90218af4-4d58-4821-8d41-2ee295ebbe21</mbid>
+		<url>http://www.last.fm/music/Kaiser+Chiefs</url>
+	</artist>
+	<artist>
+		<name>Planet X</name>
+		<mbid>663ce5b5-fdd8-47c1-b1e5-c632ed6c3d1b</mbid>
+		<url>http://www.last.fm/music/Planet+X</url>
+	</artist>
+	<artist>
+		<name>Kasabian</name>
+		<mbid>69b39eab-6577-46a4-a9f5-817839092033</mbid>
+		<url>http://www.last.fm/music/Kasabian</url>
+	</artist>
+</recommendations>

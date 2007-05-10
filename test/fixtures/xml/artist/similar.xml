@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<similarartists artist="Metallica" streamable="1" picture="http://panther1.last.fm/proposedimages/sidebar/6/1000024/1285.jpg" mbid="65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab">
+	<artist>
+		<name>Iron Maiden</name>
+		<mbid>ca891d65-d9b0-4258-89f7-e6ba29d83767</mbid>
+		<match>100</match>
+		<url>http://www.last.fm/music/Iron+Maiden</url>
+		<image_small>http://static3.last.fm/storable/image/177412/small.jpg</image_small>
+		<image>http://panther1.last.fm/proposedimages/sidebar/6/1000107/528560.jpg</image>
+		<streamable>1</streamable>
+	</artist>
+	<artist>
+		<name>System of a Down</name>
+		<mbid>cc0b7089-c08d-4c10-b6b0-873582c17fd6</mbid>
+		<match>96.504</match>
+		<url>http://www.last.fm/music/System+of+a+Down</url>
+		<image_small>http://static3.last.fm/storable/image/14558/small.jpg</image_small>
+		<image>http://panther1.last.fm/proposedimages/sidebar/6/4468/52383.jpg</image>
+		<streamable>1</streamable>
+	</artist>
+	<artist>
+		<name>Guns N' Roses</name>
+		<mbid>eeb1195b-f213-4ce1-b28c-8565211f8e43</mbid>
+		<match>93.460</match>
+		<url>http://www.last.fm/music/Guns+N%27+Roses</url>
+		<image_small>http://static3.last.fm/storable/image/182502/small.jpg</image_small>
+		<image>http://panther1.last.fm/proposedimages/sidebar/6/1000323/536623.jpg</image>
+		<streamable>1</streamable>
+	</artist>
+	<artist>
+		<name>Rammstein</name>
+		<mbid>b2d122f9-eadb-4930-a196-8f221eeb0c66</mbid>
+		<match>88.187</match>
+		<url>http://www.last.fm/music/Rammstein</url>
+		<image_small>http://static3.last.fm/storable/image/179399/small.jpg</image_small>
+		<image>http://panther1.last.fm/proposedimages/sidebar/6/5705/527340.jpg</image>
+		<streamable>1</streamable>
+	</artist>
+</similarartists>

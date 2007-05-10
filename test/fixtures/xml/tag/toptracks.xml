@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tag tag="rock" count="72">
+	<track name="Once Upon a Time" count="1076" streamable="no">
+		<artist name="Frank Zappa">
+			<mbid>e20747e7-55a4-452e-8766-7b985585082d</mbid>
+			<url>http://www.last.fm/music/Frank+Zappa</url>
+		</artist>
+		<url>http://www.last.fm/music/Frank+Zappa/_/Once+Upon+a+Time</url>
+		<thumbnail>http://ec1.images-amazon.com/images/P/B0000009TN.01._SCMZZZZZZZ_.jpg</thumbnail>
+		<image>http://ec1.images-amazon.com/images/P/B0000009TN.01._SCMZZZZZZZ_.jpg</image>
+	</track>
+	<track name="The Florida Airport Tape" count="656" streamable="no">
+		<artist name="Frank Zappa">
+			<mbid>e20747e7-55a4-452e-8766-7b985585082d</mbid>
+			<url>http://www.last.fm/music/Frank+Zappa</url>
+		</artist>
+		<url>http://www.last.fm/music/Frank+Zappa/_/The+Florida+Airport+Tape</url>
+		<thumbnail>http://static3.last.fm/storable/image/182660/small.jpg</thumbnail>
+		<image>http://panther1.last.fm/proposedimages/sidebar/6/4250/536026.jpg</image>
+	</track>
+	<track name="Wonderwall" count="346" streamable="yes">
+		<artist name="Oasis">
+			<mbid>39ab1aed-75e0-4140-bd47-540276886b60</mbid>
+			<url>http://www.last.fm/music/Oasis</url>
+		</artist>
+		<url>http://www.last.fm/music/Oasis/_/Wonderwall</url>
+		<thumbnail>http://images.amazon.com/images/P/B000002BBY.01.THUMBZZZ.jpg</thumbnail>
+		<image>http://images.amazon.com/images/P/B000002BBY.01.MZZZZZZZ.jpg</image>
+	</track>
+</tag>

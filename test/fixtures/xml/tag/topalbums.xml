@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tag tag="rock" count="904572">
+	<album name="Californication" count="82" streamable="yes">
+		<artist name="Red Hot Chili Peppers">
+			<mbid>8bfac288-ccc5-448d-9573-c33ea2aa5c30</mbid>
+			<url>http://www.last.fm/music/Red+Hot+Chili+Peppers</url>
+		</artist>
+		<url>http://www.last.fm/music/Red+Hot+Chili+Peppers/Californication</url>
+		<coverart>
+			<small>http://panther1.last.fm/coverart/50x50/4791.jpg</small>
+			<medium>http://cdn.last.fm/coverart/130x130/4791.jpg</medium>
+			<large>http://cdn.last.fm/coverart/300x300/4791.jpg</large> 
+		</coverart>
+	</album>
+	<album name="Fallen" count="82" streamable="yes">
+		<artist name="Evanescence">
+			<mbid>f4a31f0a-51dd-4fa7-986d-3095c40c5ed9</mbid>
+			<url>http://www.last.fm/music/Evanescence</url>
+		</artist>
+		<url>http://www.last.fm/music/Evanescence/Fallen</url>
+		<coverart>
+			<small>http://images.amazon.com/images/P/B00008US8R.01._SCMZZZZZZZ_.jpg</small>
+			<medium>http://images.amazon.com/images/P/B00008US8R.01._SCMZZZZZZZ_.jpg</medium>
+			<large>http://images.amazon.com/images/P/B00008US8R.01._SCMZZZZZZZ_.jpg</large> 
+		</coverart>
+	</album>
+	<album name="Elephant" count="81" streamable="yes">
+		<artist name="The White Stripes">
+			<mbid>11ae9fbb-f3d7-4a47-936f-4c0a04d3b3b5</mbid>
+			<url>http://www.last.fm/music/The+White+Stripes</url>
+		</artist>
+		<url>http://www.last.fm/music/The+White+Stripes/Elephant</url>
+		<coverart>
+			<small>http://images-eu.amazon.com/images/P/B00007KN36.02.THUMBZZZ.jpg</small>
+			<medium>http://images-eu.amazon.com/images/P/B00007KN36.02.MZZZZZZZ.jpg</medium>
+			<large>http://images-eu.amazon.com/images/P/B00007KN36.02.LZZZZZZZ.jpg</large> 
+		</coverart>
+	</album>
+</tag>

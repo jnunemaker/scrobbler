@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topartists user="jnunemaker">
+	<artist>
+		<name>Dixie Chicks</name>
+		<mbid>3248ed2d-bada-41b5-a7b6-ac88faa1f1ac</mbid>
+		<playcount>592</playcount>
+		<rank>1</rank>
+		<url>http://www.last.fm/music/Dixie+Chicks</url>
+		<thumbnail>http://static3.last.fm/storable/image/182497/small.jpg</thumbnail>
+		<image>http://panther1.last.fm/proposedimages/sidebar/6/4037/512759.jpg</image>
+	</artist>
+	<artist>
+		<name>Rascal Flatts</name>
+		<mbid>6e0ae159-8449-4262-bba5-18ec87fa529f</mbid>
+		<playcount>526</playcount>
+		<rank>2</rank>
+		<url>http://www.last.fm/music/Rascal+Flatts</url>
+		<thumbnail>http://static3.last.fm/storable/image/182272/small.jpg</thumbnail>
+		<image>http://panther1.last.fm/proposedimages/sidebar/6/1001868/485963.jpg</image>
+	</artist>
+	<artist>
+		<name>Carrie Underwood</name>
+		<mbid>70f0e309-5418-49b6-a130-666e2f76eecd</mbid>
+		<playcount>423</playcount>
+		<rank>3</rank>
+		<url>http://www.last.fm/music/Carrie+Underwood</url>
+		<thumbnail>http://static3.last.fm/storable/image/181206/small.jpg</thumbnail>
+		<image>http://panther1.last.fm/proposedimages/sidebar/6/10118348/537254.jpg</image>
+	</artist>
+</topartists>

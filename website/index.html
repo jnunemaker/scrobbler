@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Scrobbler by John Nunemaker</title>
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="header">
+		<h1>Scrobbler</h1>
+		<p>Get your music on.</p>
+		
+		<ul id="nav">
+			<li><a href="scrobbler/">Docs</a></li>
+			<li><a href="http://rubyforge.org/projects/scrobbler/">Rubyforge Page</a></li>
+		</ul>
+	</div>
+	
+	<div id="content">
+		<p>Scrobbler is a wrapper for the <a href="http://www.audioscrobbler.net/data/webservices/">audioscrobbler (last.fm) web services</a>.</p>
+		
+		<h2>Installation</h2>
+		
+		<pre><code>$ sudo gem install scrobbler</code></pre>
+		
+		<h2>Usage</h2>
+		
+		<p>Below is just a sampling of how easy this lib is to use.</p>
+
+		<h3>Users</h3>
+
+			<pre><code class="ruby">user = Scrobbler::User.new('jnunemaker')
+
+puts "#{user.username}'s Recent Tracks"
+puts "=" * (user.username.length + 16)
+user.recent_tracks.each { |t| puts t.name }
+
+puts
+puts
+
+puts "#{user.username}'s Top Tracks"
+puts "=" * (user.username.length + 13)
+user.top_tracks.each { |t| puts "(#{t.playcount}) #{t.name}" }</code></pre>
+
+		<h3>Albums</h3>
+
+			<pre><code class="ruby">album = Scrobbler::Album.new('Carrie Underwood', 'Some Hearts', :include_info => true)
+
+puts "Album: #{album.name}"
+puts "Artist: #{album.artist}"
+puts "Reach: #{album.reach}"
+puts "URL: #{album.url}"
+puts "Release Date: #{album.release_date.strftime('%m/%d/%Y')}"
+
+puts
+puts
+
+puts "Tracks"
+longest_track_name = album.tracks.collect(&:name).sort { |x, y| y.length <=> x.length }.first.length
+puts "=" * longest_track_name
+album.tracks.each { |t| puts t.name }</code></pre>
+
+		<h3>Artists</h3>
+
+			<pre><code class="ruby">artist = Scrobbler::Artist.new('Carrie Underwood')
+
+puts 'Top Tracks'
+puts "=" * 10
+artist.top_tracks.each { |t| puts "(#{t.reach}) #{t.name}" }
+
+puts
+
+puts 'Similar Artists'
+puts "=" * 15
+artist.similar.each { |a| puts "(#{a.match}%) #{a.name}" }</code></pre>
+
+		<h3>Tags</h3>
+
+			<pre><code class="ruby">tag = Scrobbler::Tag.new('country')
+
+puts 'Top Albums'
+tag.top_albums.each { |a| puts "(#{a.count}) #{a.name} by #{a.artist}" }
+
+puts
+
+puts 'Top Tracks'
+tag.top_tracks.each { |t| puts "(#{t.count}) #{t.name} by #{t.artist}" }</code></pre>
+
+		<h3>Tracks</h3>
+
+			<pre><code class="ruby">track = Scrobbler::Track.new('Carrie Underwood', 'Before He Cheats')
+puts 'Fans'
+puts "=" * 4
+track.fans.each { |u| puts "(#{u.weight}) #{u.username}" }</code></pre>
+	</div>
+
+	<div id="footer">
+		<p>Created by <a href="http://addictedtonew.com/about/">John Nunemaker</a></p>
+	</div>
+
+</div>
+
+</body>
+</html>

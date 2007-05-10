@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toptracks user="jnunemaker">
+	<track>
+		<artist mbid="9092d8e1-9b38-4372-a96d-000b8561a8bc">LeAnn Rimes</artist>
+		<name>Probably Wouldn't Be This Way</name>
+		<mbid></mbid>
+		<playcount>61</playcount>
+		<rank>1</rank>
+		<url>http://www.last.fm/music/LeAnn+Rimes/_/Probably+Wouldn%27t+Be+This+Way</url>
+	</track>
+	<track>
+		<artist mbid="3248ed2d-bada-41b5-a7b6-ac88faa1f1ac">Dixie Chicks</artist>
+		<name>Not Ready To Make Nice</name>
+		<mbid></mbid>
+		<playcount>55</playcount>
+		<rank>2</rank>
+		<url>http://www.last.fm/music/Dixie+Chicks/_/Not+Ready+To+Make+Nice</url>
+	</track>
+	<track>
+		<artist mbid="3248ed2d-bada-41b5-a7b6-ac88faa1f1ac">Dixie Chicks</artist>
+		<name>Easy Silence</name>
+		<mbid></mbid>
+		<playcount>45</playcount>
+		<rank>3</rank>
+		<url>http://www.last.fm/music/Dixie+Chicks/_/Easy+Silence</url>
+	</track>
+</toptracks>

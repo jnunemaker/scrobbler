@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topalbums user="jnunemaker">
+	<album>
+		<artist mbid="9092d8e1-9b38-4372-a96d-000b8561a8bc">LeAnn Rimes</artist>
+		<name>This Woman</name>
+		<mbid>080a4038-5156-460a-8dd5-daaa7d16b6a6</mbid>
+		<playcount>297</playcount>
+		<rank>1</rank>
+		<url>http://www.last.fm/music/LeAnn+Rimes/This+Woman</url>
+		<image>
+			<large>http://images.amazon.com/images/P/B00067BD8K.01._SCMZZZZZZZ_.jpg</large>
+			<medium>http://images.amazon.com/images/P/B00067BD8K.01._SCMZZZZZZZ_.jpg</medium>
+			<small>http://images.amazon.com/images/P/B00067BD8K.01._SCMZZZZZZZ_.jpg</small>
+		</image>
+	</album>
+	<album>
+		<artist mbid="0fb711af-c7ba-4bdc-b0b6-b8495fc0a590">Dwight Yoakam</artist>
+		<name>The Very Best of Dwight Yoakam</name>
+		<mbid>b6a051b4-1a1e-4c33-a1e5-0ea6e920a13f</mbid>
+		<playcount>282</playcount>
+		<rank>2</rank>
+		<url>http://www.last.fm/music/Dwight+Yoakam/The+Very+Best+of+Dwight+Yoakam</url>
+		<image>
+			<large>http://panther1.last.fm/coverart/130x130/2187175.jpg</large>
+			<medium>http://cdn.last.fm/coverart/130x130/2187175.jpg</medium>
+			<small>http://panther1.last.fm/coverart/50x50/2187175.jpg</small>
+		</image>
+	</album>
+	<album>
+		<artist mbid="6e0ae159-8449-4262-bba5-18ec87fa529f">Rascal Flatts</artist>
+		<name>Feels Like Today</name>
+		<mbid>47826aa0-951c-4266-ab59-412139a088e3</mbid>
+		<playcount>230</playcount>
+		<rank>3</rank>
+		<url>http://www.last.fm/music/Rascal+Flatts/Feels+Like+Today</url>
+		<image>
+			<large>http://images.amazon.com/images/P/B0002VL0Z6.01.MZZZZZZZ.jpg</large>
+			<medium>http://images.amazon.com/images/P/B0002VL0Z6.01.MZZZZZZZ.jpg</medium>
+			<small>http://images.amazon.com/images/P/B0002VL0Z6.01.MZZZZZZZ.jpg</small>
+		</image>
+	</album>
+</topalbums>

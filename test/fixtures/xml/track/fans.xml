@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fans artist="Carrie Underwood" track="Before He Cheats">
+	<user username="frozenice">
+		<url>http://www.last.fm/user/frozenice/</url>
+		<image>http://panther1.last.fm/avatar/54e8d2cafc363336e15fef0a48d30706.jpg</image>
+		<weight>909</weight>
+	</user>
+	<user username="Madamev">
+		<url>http://www.last.fm/user/Madamev/</url>
+		<image>http://panther1.last.fm/avatar/9de1229f26d5a1d279215f95e02c2bd4.jpg</image>
+		<weight>905</weight>
+	</user>
+	<user username="ryancait">
+		<url>http://www.last.fm/user/ryancait/</url>
+		<image>http://panther1.last.fm/depth/catalogue/noimage/nouser_140px.jpg</image>
+		<weight>896</weight>
+	</user>
+	<user username="lapatton">
+		<url>http://www.last.fm/user/lapatton/</url>
+		<image>http://panther1.last.fm/depth/catalogue/noimage/nouser_140px.jpg</image>
+		<weight>886</weight>
+	</user>
+	<user username="iya">
+		<url>http://www.last.fm/user/iya/</url>
+		<image>http://panther1.last.fm/avatar/00e11252db1051387c47521767296b42.jpg</image>
+		<weight>859</weight>
+	</user>
+</fans>

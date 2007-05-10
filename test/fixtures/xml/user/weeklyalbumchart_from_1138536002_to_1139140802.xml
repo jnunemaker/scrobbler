@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weeklyalbumchart user="jnunemaker" from="1138536002" to="1139140802">
+	<album>
+		<artist mbid="abae8575-ec8a-4736-abc3-1ad5093a68aa">Jewel</artist>
+		<name>0304</name>
+		<mbid>52b3f067-9d82-488c-9747-6d608d9b9486</mbid>
+		<chartposition>1</chartposition>
+		<playcount>13</playcount>
+		<url>http://www.last.fm/music/Jewel/0304</url>
+	</album>
+	<album>
+		<artist mbid="4b179fe2-dfa5-40b1-b6db-b56dbc3b5f09">Jenny Lewis with The Watson Twins</artist>
+		<name>Rabbit Fur Coat</name>
+		<mbid>97d5185a-0762-41b4-b7d4-59d72fcf0afe</mbid>
+		<chartposition>2</chartposition>
+		<playcount>9</playcount>
+		<url>http://www.last.fm/music/Jenny+Lewis+with+The+Watson+Twins/Rabbit+Fur+Coat</url>
+	</album>
+	<album>
+		<artist mbid="b7ffd2af-418f-4be2-bdd1-22f8b48613da">Nine Inch Nails</artist>
+		<name>The Downward Spiral</name>
+		<mbid>602af258-e647-48e2-9660-bd0c5c8f92bf</mbid>
+		<chartposition>3</chartposition>
+		<playcount>8</playcount>
+		<url>http://www.last.fm/music/Nine+Inch+Nails/The+Downward+Spiral</url>
+	</album>
+	<album>
+		<artist mbid="8b477559-946e-4ef2-9fe1-446cff8fdd79">Natasha Bedingfield</artist>
+		<name>Unwritten</name>
+		<mbid>88801c96-3c23-4a93-8ec5-4c0c3b43252e</mbid>
+		<chartposition>3</chartposition>
+		<playcount>8</playcount>
+		<url>http://www.last.fm/music/Natasha+Bedingfield/Unwritten</url>
+	</album>
+</weeklyalbumchart>

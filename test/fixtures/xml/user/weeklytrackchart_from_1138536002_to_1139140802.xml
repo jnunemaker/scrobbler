@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weeklytrackchart user="jnunemaker" from="1138536002" to="1139140802">
+	<track>
+		<artist mbid="8b477559-946e-4ef2-9fe1-446cff8fdd79">Natasha Bedingfield</artist>
+		<name>Unwritten</name>
+		<mbid></mbid>
+		<chartposition>1</chartposition>
+		<playcount>8</playcount>
+		<url>http://www.last.fm/music/Natasha+Bedingfield/_/Unwritten</url>
+	</track>
+	<track>
+		<artist mbid="d43d12a1-2dc9-4257-a2fd-0a3bb1081b86">Johnny Cash</artist>
+		<name>Hurt</name>
+		<mbid></mbid>
+		<chartposition>2</chartposition>
+		<playcount>6</playcount>
+		<url>http://www.last.fm/music/Johnny+Cash/_/Hurt</url>
+	</track>
+	<track>
+		<artist mbid="ba853904-ae25-4ebb-89d6-c44cfbd71bd2">Blur</artist>
+		<name>Song 2</name>
+		<mbid></mbid>
+		<chartposition>3</chartposition>
+		<playcount>4</playcount>
+		<url>http://www.last.fm/music/Blur/_/Song+2</url>
+	</track>
+	<track>
+		<artist mbid="bc710bcf-8815-42cf-bad2-3f1d12246aeb">Nickelback</artist>
+		<name>Photograph</name>
+		<mbid></mbid>
+		<chartposition>3</chartposition>
+		<playcount>4</playcount>
+		<url>http://www.last.fm/music/Nickelback/_/Photograph</url>
+	</track>
+</weeklytrackchart>

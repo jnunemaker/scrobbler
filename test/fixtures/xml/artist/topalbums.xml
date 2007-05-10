@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topalbums artist="Metallica">
+	<album>
+		<name>Master of Puppets</name>
+		<mbid>fed37cfc-2a6d-4569-9ac0-501a7c7598eb</mbid>
+		<reach>65717</reach>
+		<url>http://www.last.fm/music/Metallica/Master+of+Puppets</url>
+		<image>
+			<large>http://panther1.last.fm/coverart/130x130/1411810.jpg</large>
+			<medium>http://cdn.last.fm/coverart/130x130/1411810.jpg</medium>
+			<small>http://cdn.last.fm/coverart/50x50/1411810.jpg</small>
+		</image>
+	</album>
+	<album>
+		<name>Metallica</name>
+		<mbid>3750d9e2-59f5-471d-8916-463433069bd1</mbid>
+		<reach>58623</reach>
+		<url>http://www.last.fm/music/Metallica/Metallica</url>
+		<image>
+			<large>http://panther1.last.fm/coverart/130x130/1411800.jpg</large>
+			<medium>http://cdn.last.fm/coverart/130x130/1411800.jpg</medium>
+			<small>http://cdn.last.fm/coverart/50x50/1411800.jpg</small>
+		</image>
+	</album>
+	<album>
+		<name>Reload</name>
+		<mbid>b05cf8e3-67ad-4d40-9dc1-3a697e3a1bf8</mbid>
+		<reach>51473</reach>
+		<url>http://www.last.fm/music/Metallica/Reload</url>
+		<image>
+			<large>http://panther1.last.fm/coverart/130x130/22791.jpg</large>
+			<medium>http://panther1.last.fm/coverart/130x130/22791.jpg</medium>
+			<small>http://panther1.last.fm/coverart/50x50/22791.jpg</small>
+		</image>
+	</album>
+</topalbums>

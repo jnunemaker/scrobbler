@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mostknowntracks artist="Metallica">
+	<track>
+		<name>Nothing Else Matters</name>
+		<mbid></mbid>
+		<reach>59135</reach>
+		<url>http://www.last.fm/music/Metallica/_/Nothing+Else+Matters</url>
+	</track>
+	<track>
+		<name>Enter Sandman</name>
+		<mbid></mbid>
+		<reach>57898</reach>
+		<url>http://www.last.fm/music/Metallica/_/Enter+Sandman</url>
+	</track>
+	<track>
+		<name>Master of Puppets</name>
+		<mbid></mbid>
+		<reach>52898</reach>
+		<url>http://www.last.fm/music/Metallica/_/Master+of+Puppets</url>
+	</track>
+	<track>
+		<name>One</name>
+		<mbid></mbid>
+		<reach>48229</reach>
+		<url>http://www.last.fm/music/Metallica/_/One</url>
+	</track>
+</mostknowntracks>

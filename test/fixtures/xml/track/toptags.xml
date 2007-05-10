@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toptags artist="Carrie Underwood" track="Before He Cheats">
+	<tag>
+		<name>country</name> 
+		<count>100</count>
+		<url>http://www.last.fm/tag/country</url>
+	</tag>
+	<tag>
+		<name>pop</name> 
+		<count>59</count>
+		<url>http://www.last.fm/tag/pop</url>
+	</tag>
+	<tag>
+		<name>female vocalists</name> 
+		<count>22</count>
+		<url>http://www.last.fm/tag/female%20vocalists</url>
+	</tag>
+	<tag>
+		<name>favorites</name> 
+		<count>19</count>
+		<url>http://www.last.fm/tag/favorites</url>
+	</tag>
+	<tag>
+		<name>female vocals</name> 
+		<count>16</count>
+		<url>http://www.last.fm/tag/female%20vocals</url>
+	</tag>
+	<tag>
+		<name>i feel like i sold out for listening to this</name> 
+		<count>8</count>
+		<url>http://www.last.fm/tag/i%20feel%20like%20i%20sold%20out%20for%20listening%20to%20this</url>
+	</tag>
+</toptags>
