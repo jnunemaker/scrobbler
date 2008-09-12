@@ -22,7 +22,7 @@ module Scrobbler
 
   			if args
   				# TODO: What about keys without value?
-  				url.query = args.map { |k,v| "%s=%s" % [URI.encode(k), URI.encode(v)] }.join("&")
+  				url.query = args.map { |k,v| "%s=%s" % [URI.encode(k.to_s), URI.encode(v)] }.join("&")
   			end
 
   			case method
