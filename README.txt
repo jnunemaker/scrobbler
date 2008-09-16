@@ -69,3 +69,39 @@ Below is just a sampling of how easy this lib is to use.
 	puts 'Fans'
 	puts "=" * 4
 	track.fans.each { |u| puts "(#{u.weight}) #{u.username}" }
+	
+== Simple Authentication (for Scrobbling)
+
+    auth = Scrobbler::SimpleAuth.new(:user => 'chunky', :password => 'bacon')
+    auth.handshake!
+
+    puts "Auth Status: #{auth.status}"
+    puts "Session ID: #{auth.session_id}"
+    puts "Now Playing URL: #{auth.now_playing_url}"
+    puts "Submission URL: #{auth.submission_url}"
+
+== Scrobbling
+
+    scrobble = Scrobbler::Scrobble.new(:session_id => auth.session_id,
+                                       :submission_url => auth.submission_url,
+                                       :artist => 'Coldplay',
+                                       :track => 'Viva La Vida',
+                                       :album => "Viva La Vida",
+                                       :time => Time.new,
+                                       :length => 244,
+                                       :track_number => 7)
+    scrobble.submit!
+    puts "Scrobbler Submission Status: #{scrobble.status}"
+
+== Now Playing Submission
+
+    playing = Scrobbler::Playing.new(:session_id => auth.session_id,
+                                     :now_playing_url => auth.now_playing_url,
+                                     :artist => 'Anberlin',
+                                     :track => 'Readyfuels',
+                                     :album => 'Blueprints For the Black Market',
+                                     :length => 218,
+                                     :track_number => 1)
+
+    playing.submit!         
+    puts "Playing Submission Status: #{playing.status}"
