@@ -16,4 +16,3 @@ require 'scrobbler/scrobble'
 require 'scrobbler/playing'
 
 require 'scrobbler/rest'
-require 'scrobbler/version'
