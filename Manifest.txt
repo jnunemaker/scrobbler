@@ -8,6 +8,7 @@ examples/artist.rb
 examples/tag.rb
 examples/track.rb
 examples/user.rb
+examples/scrobble.rb
 lib/scrobbler.rb
 lib/scrobbler/album.rb
 lib/scrobbler/artist.rb
@@ -18,6 +19,9 @@ lib/scrobbler/tag.rb
 lib/scrobbler/track.rb
 lib/scrobbler/user.rb
 lib/scrobbler/version.rb
+lib/scrobbler/simpleauth.rb
+lib/scrobbler/scrobble.rb
+lib/scrobbler/playing.rb
 test/test_helper.rb
 test/fixtures/xml/album/info.xml
 test/fixtures/xml/artist/fans.xml
