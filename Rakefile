@@ -3,6 +3,8 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 
+WEBSITE_PATH = 'jnunemaker@rubyforge.org:/var/www/gforge-projects/scrobbler'
+
 Echoe.new('scrobbler', '0.2.0') do |p|
   p.description = "wrapper for audioscrobbler (last.fm) web services"
   p.url         = "http://scrobbler.rubyforge.org"
@@ -10,16 +12,18 @@ Echoe.new('scrobbler', '0.2.0') do |p|
   p.email       = "nunemaker@gmail.com"
   p.extra_deps  = [['hpricot', '>=0.4.86'], ['activesupport', '>=1.4.2']]
   p.need_tar_gz = false
+  p.docs_host   = WEBSITE_PATH
 end
 
 desc 'Upload website files to rubyforge'
 task :website do
-  config = YAML.load(File.read(File.expand_path("~/.rubyforge/user-config.yml")))
-  host = "#{config["username"]}@rubyforge.org"
-  remote_dir = "/var/www/gforge-projects/#{RUBYFORGE_PROJECT}/"
-  # remote_dir = "/var/www/gforge-projects/#{RUBYFORGE_PROJECT}/#{GEM_NAME}"
-  local_dir = 'website'
-  sh %{rsync -av #{local_dir}/ #{host}:#{remote_dir}}
+  sh %{rsync -av website/ #{WEBSITE_PATH}}
+  Rake::Task['website_docs'].invoke
+end
+
+task :website_docs do
+  Rake::Task['redocs'].invoke
+  sh %{rsync -av doc/ #{WEBSITE_PATH}/docs}
 end
 
 desc 'Preps the gem for a new release'
