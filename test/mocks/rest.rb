@@ -34,14 +34,13 @@ module Scrobbler
             "OK\n#{@session_id}\n#{@now_playing_url}\n#{@submission_url}"
           end
         elsif @base_url == @now_playing_url
-          if args[:s] == @session_id && !args[:a].blank? && !args[:t].blank? && !args[:b].blank? &&
-             !args[:n].blank?
+          if args[:s] == @session_id && ![args[:a], args[:t], args[:b], args[:n]].any?(&:blank?)
              'OK'
           end           
         elsif @base_url == @submission_url
-          if args[:s] == @session_id && !args['a[0]'].blank? && !args['t[0]'].blank? &&
-             !args['i[0]'].blank? && !args['o[0]'].blank? && !args['l[0]'].blank? && !args['b[0]'].blank?
-             'OK'
+          if args[:s] == @session_id && 
+             ![args['a[0]'], args['t[0]'], args['i[0]'], args['o[0]'], args['l[0]'], args['b[0]']].any?(&:blank?)
+            'OK'
           end
 	      end
 	      
