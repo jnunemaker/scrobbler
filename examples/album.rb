@@ -1,5 +1,4 @@
-require 'rubygems'
-require 'scrobbler'
+require File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib', 'scrobbler'))
 
 album = Scrobbler::Album.new('Carrie Underwood', 'Some Hearts', :include_info => true)
 

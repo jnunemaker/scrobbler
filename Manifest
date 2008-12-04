@@ -16,11 +16,13 @@ lib/scrobbler/simpleauth.rb
 lib/scrobbler/tag.rb
 lib/scrobbler/track.rb
 lib/scrobbler/user.rb
+lib/scrobbler/version.rb
 lib/scrobbler.rb
 Manifest
 MIT-LICENSE
 Rakefile
 README.txt
+scrobbler.gemspec
 setup.rb
 test/fixtures/xml/album/info.xml
 test/fixtures/xml/artist/fans.xml

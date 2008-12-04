@@ -3,6 +3,8 @@
 $: << File.expand_path(File.dirname(__FILE__))
 
 require 'scrobbler/base'
+require 'scrobbler/version'
+
 
 require 'scrobbler/album'
 require 'scrobbler/artist'

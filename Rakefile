@@ -2,10 +2,11 @@
 require 'rubygems'
 require 'rake'
 require 'echoe'
+require 'lib/scrobbler/version'
 
 WEBSITE_PATH = 'jnunemaker@rubyforge.org:/var/www/gforge-projects/scrobbler'
 
-Echoe.new('scrobbler', '0.2.0') do |p|
+Echoe.new('scrobbler', Scrobbler::Version) do |p|
   p.description = "wrapper for audioscrobbler (last.fm) web services"
   p.url         = "http://scrobbler.rubyforge.org"
   p.author      = "John Nunemaker"

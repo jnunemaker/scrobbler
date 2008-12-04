@@ -1,5 +1,4 @@
-require 'rubygems'
-require 'scrobbler'
+require File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib', 'scrobbler'))
 
 track = Scrobbler::Track.new('Carrie Underwood', 'Before He Cheats')
 puts 'Fans'
