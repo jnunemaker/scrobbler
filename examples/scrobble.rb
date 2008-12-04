@@ -12,7 +12,7 @@ scrobble = Scrobbler::Scrobble.new(:session_id => auth.session_id,
                                    :submission_url => auth.submission_url,
                                    :artist => 'Coldplay',
                                    :track => 'Viva La Vida',
-                                   :album => "Viva La Vida",
+                                   :album => 'Viva La Vida',
                                    :time => Time.new,
                                    :length => 244,
                                    :track_number => 7)

@@ -22,15 +22,15 @@ module Scrobbler
       @track_number = args[:track_number] || '' # track number (optional)
       @mb_track_id = args[:mb_track_id] || '' # MusicBrainz track ID (optional)
 
-      if [@session_id, @submission_url, @artist, @track].any?(&:empty?)
+      if [@session_id, @submission_url, @artist, @track].any?(&:blank?)
         raise ArgumentError, 'Missing required argument'
       elsif @time.class.to_s != 'Time'
         raise ArgumentError, ":time must be a Time object"
       elsif !['P','R','E','U'].include?(@source) # see last.fm/api/submissions#subs
         raise ArgumentError, "Invalid source"
-      elsif @source == 'P' && @length.empty? # length is not optional if source is P
+      elsif @source == 'P' && @length.blank? # length is not optional if source is P
         raise ArgumentError, 'Length must be set'
-      elsif !@length.empty? && @length.to_i <= 30 # see last.fm/api/submissions#subs
+      elsif !@length.blank? && @length.to_i <= 30 # see last.fm/api/submissions#subs
         raise ArgumentError, 'Length must be greater than 30 seconds'
       end
 
@@ -43,7 +43,7 @@ module Scrobbler
                 't[0]' => @track,
                 'i[0]' => @time.utc.to_i,
                 'o[0]' => @source,
-                'r[0]' => @rating,
+                'r[0]' => '',
                 'l[0]' => @length,
                 'b[0]' => @album,
                 'n[0]' => @track_number,

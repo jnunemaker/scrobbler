@@ -16,7 +16,7 @@ module Scrobbler
       @track_number = args[:track_number] || '' # track number (optional)
       @mb_track_id = args[:mb_track_id] || '' # MusicBrainz track ID (optional)
 
-      if [@session_id, @now_playing_url, @artist, @track].any?(&:empty?)
+      if [@session_id, @now_playing_url, @artist, @track].any?(&:blank?)
         raise ArgumentError, 'Missing required argument'
       elsif !@length.to_s.empty? && @length.to_i <= 30 # see last.fm/api
         raise ArgumentError, 'Length must be greater than 30 seconds'

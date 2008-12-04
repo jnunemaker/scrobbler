@@ -40,7 +40,7 @@ module Scrobbler
       result = @connection.get('/', query)
 
       @status = result.split(/\n/)[0]
-      case @status 
+      case @status
       when /OK/
         @session_id, @now_playing_url, @submission_url = result.split(/\n/)[1,3]
       when /BANNED/
