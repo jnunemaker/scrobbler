@@ -7,13 +7,14 @@ require 'lib/scrobbler/version'
 WEBSITE_PATH = 'jnunemaker@rubyforge.org:/var/www/gforge-projects/scrobbler'
 
 Echoe.new('scrobbler', Scrobbler::Version) do |p|
-  p.description = "wrapper for audioscrobbler (last.fm) web services"
-  p.url         = "http://scrobbler.rubyforge.org"
-  p.author      = "John Nunemaker"
-  p.email       = "nunemaker@gmail.com"
-  p.extra_deps  = [['hpricot', '>=0.4.86'], ['activesupport', '>=1.4.2']]
-  p.need_tar_gz = false
-  p.docs_host   = WEBSITE_PATH
+  p.description     = "wrapper for audioscrobbler (last.fm) web services"
+  p.url             = "http://scrobbler.rubyforge.org"
+  p.author          = ['John Nunemaker', 'Jonathan Rudenberg']
+  p.email           = "nunemaker@gmail.com"
+  p.extra_deps      = [['hpricot', '>=0.4.86'], ['activesupport', '>=1.4.2']]
+  p.need_tar_gz     = false
+  p.docs_host       = WEBSITE_PATH
+  p.ignore_pattern  = /website/
 end
 
 desc 'Upload website files to rubyforge'

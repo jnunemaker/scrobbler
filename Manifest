@@ -21,7 +21,7 @@ lib/scrobbler.rb
 Manifest
 MIT-LICENSE
 Rakefile
-README.txt
+README.rdoc
 scrobbler.gemspec
 setup.rb
 test/fixtures/xml/album/info.xml
@@ -59,8 +59,9 @@ test/test_helper.rb
 test/unit/album_test.rb
 test/unit/artist_test.rb
 test/unit/chart_test.rb
+test/unit/playing_test.rb
+test/unit/scrobble_test.rb
+test/unit/simpleauth_test.rb
 test/unit/tag_test.rb
 test/unit/track_test.rb
 test/unit/user_test.rb
-website/css/common.css
-website/index.html
