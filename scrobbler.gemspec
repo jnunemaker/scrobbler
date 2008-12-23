@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{scrobbler}
-  s.version = "0.2.1"
+  s.version = "0.2.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["John Nunemaker, Jonathan Rudenberg"]
-  s.date = %q{2008-12-12}
+  s.date = %q{2008-12-23}
   s.description = %q{wrapper for audioscrobbler (last.fm) web services}
   s.email = %q{nunemaker@gmail.com}
   s.extra_rdoc_files = ["lib/scrobbler/album.rb", "lib/scrobbler/artist.rb", "lib/scrobbler/base.rb", "lib/scrobbler/chart.rb", "lib/scrobbler/playing.rb", "lib/scrobbler/rest.rb", "lib/scrobbler/scrobble.rb", "lib/scrobbler/simpleauth.rb", "lib/scrobbler/tag.rb", "lib/scrobbler/track.rb", "lib/scrobbler/user.rb", "lib/scrobbler/version.rb", "lib/scrobbler.rb", "README.rdoc"]
