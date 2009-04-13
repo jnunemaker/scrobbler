@@ -1,3 +1,4 @@
+* v 0.2.3: changed the way things get escaped in hopes that it would fix some problems some were having
 * v 0.2.2: a bunch of changes from titanous, mostly refactoring
 * v 0.2.0: added support for scrobbling tracks and now playing submission (Titanous)
 * v 0.1.0: initial release

@@ -21,8 +21,7 @@ module Scrobbler
   			url = URI.join(@base_url, resource)
 
   			if args
-  				# TODO: What about keys without value?
-  				url.query = args.map { |k,v| "%s=%s" % [URI.encode(k.to_s), URI.encode(v.to_s)] }.join("&")
+  				url.query = args.map { |k,v| "%s=%s" % [escape(k.to_s), escape(v.to_s)] }.join("&")
   			end
 
   			case method
@@ -42,6 +41,11 @@ module Scrobbler
   			res = http.start() { |conn| conn.request(req) }
   			res.body
   		end
+  		
+  		private
+  		  def escape(str)
+  		    URI.escape(str, Regexp.new("[^#{URI::PATTERN::UNRESERVED}]"))
+  		  end
   	end
   end
 end
